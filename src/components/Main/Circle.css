@@ -1,0 +1,33 @@
+.circle{
+    margin:5px;
+    margin-top:10%;
+    padding:10%;
+ height:22em;
+    border-radius: 500px;
+    background-color: white;
+    position:relative;
+}
+
+.icon{
+ position:absolute;
+ top:20%;
+ left:35%;
+color:#B44399;
+width:80px;
+}
+.title{
+    font-weight: 700;
+  position:absolute;
+  top:45%;
+  left:30%;
+  font-size:18px;
+}
+.number{
+    color:#B44399;
+    position:absolute;
+   top:60%;
+   left:30%;
+   font-weight: 700;
+
+}
+
