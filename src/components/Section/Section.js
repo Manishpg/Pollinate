@@ -112,8 +112,8 @@ The Student Fellowship enables students from around the world to learn to co-man
                   <div class="text-center p-3" style={{backgroundColor: "#100906"}}>
                   <div class="footer-p">
                      <p>
-                     <span class="p1"> Privacy Policy | 
-                       Terms & Conditon | </span>
+                     <span class="p1"> Privacy Policy | </span>
+                     <span class="p1">  Terms & Conditon | </span>
                        <span class="p2">
                        Copyright © 2020 Pollinate Group | 
                        All Rights Reserved</span></p>

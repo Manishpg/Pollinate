@@ -1,6 +1,6 @@
 body{
     
-    background-color: #fbf6f3;
+    background-color: #fdf5e2;
 }
 .header{
     text-align: center;
@@ -16,7 +16,7 @@ body{
 /* Card CSS */
 .card-header{
     font-size:26px;
-    background-color: #EFAC2A;
+    background-color: #ddc305;
 }
 .card-title{
     font-size:22px;
@@ -40,7 +40,7 @@ a:hover{
 .impact{
     position:absolute;
     overflow-x: hidden;
-    background-color: #EFAC2A;
+    background-color: #ddc305;
  height:40em;
     width: 100%;
 }
