@@ -8,10 +8,20 @@ import leafLogo from './leaves.png';
 import donationLogo from './donation.png';
 import pollinateLogo from './pollinate-header.jpeg';
 import Section from '../Section/Section';
+import main from './main.png';
 
 function Main() {
     return (
         <div>
+
+<img class="img-fluid" src={main} />
+<div className="main-content">
+    <p>Creating a world where women are </p>
+    <p>equipped to lead their communities </p>
+    <p>out of poverty.</p>
+<button className="btn donate-now-btn">Donate Now</button>
+</div>
+
           <div className="header">
           We empower women as leaders of change to distribute products that improve health, save time and save money for the world’s most neglected communities.
           </div>

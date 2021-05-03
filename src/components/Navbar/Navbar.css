@@ -62,39 +62,6 @@
   -ms-transform: scaleX(1);
   transform: scaleX(1);
 }
-.img-fluid{
-    position:relative;
-    top:10%;
-width:100%;
-overflow: hidden;
-}
-
-.main-content{
-    position:absolute;
-    top:50%;
-    left:55%;
-}
-.main-content > p{
-    color:white;
-    line-height: 30px;
-    font-size:34px;
-font-weight: 600;
-text-align:start;
-
-}
-.donate-now-btn{
-    font-size:25px;
-    border-radius: 100px;
-    padding:4px 16px;
-    background-color: #ddc305;
-    font-weight:700;
-}
-.donate-now-btn:hover{
-background-color: #004b91;
-color:#fff;
-transition:all ease-in-out 0.3s;
-}
-
 .navbar-toggler{
     border:none;
 
