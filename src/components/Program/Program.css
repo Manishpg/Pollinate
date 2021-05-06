@@ -1,0 +1,21 @@
+.program{
+
+}
+.program-carousel{
+    margin-top:76px;
+    height:auto;
+    width:50em;   
+}
+
+@media (max-width: 992px) { 
+    .program-carousel{
+        margin-top:60px;
+    }
+}
+
+.detail-section{
+    background-color: blanchedalmond;
+    height:400px;
+    width:100%;
+    margin:40px;
+}
