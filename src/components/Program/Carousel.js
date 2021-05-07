@@ -9,19 +9,22 @@ import Logo6 from './6.jpeg';
 import Logo7 from './7.jpeg';
 import Logo8 from './8.jpeg';
 import './Program.css';
+import {Link} from 'react-router-dom';
 
 function CarouselCode() {
     return (
         <div>
             <div className="program-carousel">
    <Carousel fade controls={true} pause='hover' interval={1000}>
-  <Carousel.Item>
+  <Carousel.Item onClick={() => window.location.replace("/#slide1")}>
+  
   <img className="d-block w-100" width={900} height={500}  src={Logo1} alt=" "/>
 
     <Carousel.Caption>
       <h3>First slide label</h3>
       <p>Hello From First Slide.</p>
     </Carousel.Caption>
+    
   </Carousel.Item>
 
   <Carousel.Item>
@@ -82,6 +85,16 @@ function CarouselCode() {
   </Carousel.Item>
 </Carousel>
 </div>
+
+<div class="container">
+          <div class="detail-section"  id="slide1">
+<h1>Deatil 1</h1>
+          </div>
+          <div class="detail-section">
+<h1>Deatil 2</h1>
+          </div>
+</div>
+
         </div>
     )
 }

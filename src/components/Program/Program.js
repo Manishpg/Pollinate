@@ -11,9 +11,11 @@ function Program() {
         </div>
         {/* <div class="container">
           <div class="detail-section">
-<h1>Deatil 1</h1>
+<h1 id="#slide1">Deatil 1</h1>
           </div>
-        
+          <div class="detail-section">
+<h1>Deatil 2</h1>
+          </div>
 </div> */}
 </>
     )
