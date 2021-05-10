@@ -23,7 +23,7 @@ function Program() {
       <div className="program-carousel">
    <Carousel fade controls={true} pause='hover' interval={1000}>
   <Carousel.Item >
-   <Link activeClass="active" to="detail-1" spy={true} smooth={true}>
+   <Link activeClass="active" to="detail-1" spy={true} offset={-73} smooth={true}>
   <img className="carousel-img d-block w-100"  src={Logo1} alt=" "/>
 
     <Carousel.Caption>
@@ -34,7 +34,7 @@ function Program() {
   </Carousel.Item>
 
   <Carousel.Item>
-  <Link activeClass="active" to="detail-2" spy={true} smooth={true}>
+  <Link activeClass="active" to="detail-2" spy={true} offset={-73} smooth={true}>
   <img className="carousel-img  d-block w-100" src={Logo2} alt=" "/>
 
     <Carousel.Caption>
@@ -44,7 +44,7 @@ function Program() {
     </Link>
   </Carousel.Item>
   <Carousel.Item>
-  <Link activeClass="active" to="detail-3" spy={true} smooth={true}>
+  <Link activeClass="active" to="detail-3" spy={true} offset={-73} smooth={true}>
   <img className="carousel-img  d-block w-100" src={Logo3} alt=" "/>
 
     <Carousel.Caption>
@@ -54,7 +54,7 @@ function Program() {
     </Link>
   </Carousel.Item>
   <Carousel.Item>
-  <Link activeClass="active" to="detail-4" spy={true} smooth={true}>
+  <Link activeClass="active" to="detail-4" spy={true} offset={-73} smooth={true}>
   <img className="carousel-img  d-block w-100" src={Logo4} alt=" "/>
 
     <Carousel.Caption>
@@ -64,7 +64,7 @@ function Program() {
     </Link>
   </Carousel.Item>
   <Carousel.Item>
-  <Link activeClass="active" to="detail-5" spy={true} smooth={true}>
+  <Link activeClass="active" to="detail-5" spy={true} offset={-73} smooth={true}>
   <img className="carousel-img  d-block w-100" src={Logo5} alt=" "/>
 
     <Carousel.Caption>
@@ -74,7 +74,7 @@ function Program() {
     </Link>
   </Carousel.Item>
   <Carousel.Item>
-  <Link activeClass="active" to="detail-6" spy={true} smooth={true}>
+  <Link activeClass="active" to="detail-6" spy={true} offset={-73} smooth={true}>
   <img className="carousel-img  d-block w-100" src={Logo6} alt=" "/>
 
     <Carousel.Caption>
@@ -84,7 +84,7 @@ function Program() {
 </Link>
   </Carousel.Item>
   <Carousel.Item>
-  <Link activeClass="active" to="detail-7" spy={true} smooth={true}>
+  <Link activeClass="active" to="detail-7" spy={true} offset={-73} smooth={true}>
   <img className=" carousel-img d-block w-100" src={Logo7} alt=" "/>
 
     <Carousel.Caption>
@@ -96,7 +96,7 @@ function Program() {
   </Carousel.Item>
 
   <Carousel.Item>
-  <Link activeClass="active" to="detail-8" spy={true} smooth={true}>
+  <Link activeClass="active" to="detail-8" offset={90} offset={-73} spy={true} smooth={true}>
   <img className=" carousel-img  d-block w-100"   src={Logo8} alt=" "/>
 
     <Carousel.Caption>
