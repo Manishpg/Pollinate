@@ -1,6 +1,9 @@
 import React from 'react'
+import Footer from '../Footer';
 import './Section.css';
 function Section() {
+
+
     return (
         <div className="hello">
             <div className="row">
@@ -98,8 +101,10 @@ The Student Fellowship enables students from around the world to learn to co-man
                    </div>
 
                    </div>
-                   <section id="lab_social_icon_footer">
+                   <Footer />
+                   {/* <section id="lab_social_icon_footer">
                    <div class="container" >
+                  
                    <p class="follow-text">Follow us :)</p>
         <div class="text-center center-block">
                 <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
@@ -118,9 +123,9 @@ The Student Fellowship enables students from around the world to learn to co-man
                        Copyright © 2020 Pollinate Group | 
                        All Rights Reserved</span></p>
                   </div>
-   
+                  
     
-  </div>
+  </div> */}
                </div>
             </div>
 

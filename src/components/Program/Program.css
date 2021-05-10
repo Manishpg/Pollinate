@@ -1,6 +1,10 @@
 .program{
-
+    margin:0px;
+    margin-top:76px;
+    padding:0px;
+    box-sizing: border-box;
 }
+
 .program-carousel{
     margin-top:76px;
     height:auto;
@@ -10,17 +14,23 @@
 @media (max-width: 992px) { 
     .program-carousel{
         margin-top:60px;
+        
     }
 }
 
 .detail-section{
     background-color: blanchedalmond;
-    height:400px;
-    width:100%;
+    border-radius:20px;
+   
     margin:40px;
 }
 .d-flex{
     display:flex;
     align-items: center;
     justify-content: center;
+}
+.carousel-img{
+  
+    width:500px;
+    height:400px;
 }
