@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
     return (
-        <div >
+        <div className="footer">
             <section id="lab_social_icon_footer">
                    <div class="container" >
                   

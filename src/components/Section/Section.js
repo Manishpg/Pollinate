@@ -101,8 +101,8 @@ The Student Fellowship enables students from around the world to learn to co-man
                    </div>
 
                    </div>
-                   <Footer />
-                   {/* <section id="lab_social_icon_footer">
+                   
+                   <section id="lab_social_icon_footer">
                    <div class="container" >
                   
                    <p class="follow-text">Follow us :)</p>
@@ -125,7 +125,7 @@ The Student Fellowship enables students from around the world to learn to co-man
                   </div>
                   
     
-  </div> */}
+  </div>
                </div>
             </div>
 

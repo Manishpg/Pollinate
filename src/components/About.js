@@ -1,9 +1,12 @@
 import React from 'react'
+import Footer from './Footer'
 
 function About() {
-    return (
-        <div style={{marginTop:"70px"}}>
+    return (<div>
+        <div style={{marginTop:"70px",minHeight:"303px"}}>
            <h1> This is About Section.</h1>
+        </div>
+        <Footer />
         </div>
     )
 }
