@@ -111,6 +111,9 @@ The Student Fellowship enables students from around the world to learn to co-man
 	            <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
 	            <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
 	            <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+           <div>
+               <button className="btn btn-warning" onClick={()=>window.scrollTo({top:0 , behavior:"smooth"})}>Go to Top</button>
+           </div>
     </div>
 </div>
 </section>
