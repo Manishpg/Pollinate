@@ -5,7 +5,7 @@ function Contact() {
     return (
         <div>
         <div style={{marginTop:"70px" ,minHeight:"303px"}}>
-            <h1>Contact Form</h1>
+            <h1 className="text-center">Contact Form</h1>
         </div>
         <Footer />
         </div>

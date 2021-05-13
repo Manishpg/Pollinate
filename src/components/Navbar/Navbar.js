@@ -24,16 +24,16 @@ function Navbar() {
       <ul class="navbar-nav  mb-2 mb-lg-0 ">
       
         <li class="nav-item">
-          <Link class="nav-link" aria-current="page" to="/program">Programs</Link>
+          <Link class="nav-link " aria-current="page" to="/program"  style={{color:"#f9f3f3"}}>Programs</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link" aria-current="page" to="/teams">Team</Link>
+          <Link class="nav-link" aria-current="page" to="/teams"  style={{color:"#f9f3f3"}}>Team</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link" to="/about-us">About Us</Link>
+          <Link class="nav-link" to="/about-us"  style={{color:"#f9f3f3"}}>About Us</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link" to="/contact-us">Contact Us</Link>
+          <Link class="nav-link" to="/contact-us"  style={{color:"#f9f3f3"}}>Contact Us</Link>
         </li>
        
  </ul>
