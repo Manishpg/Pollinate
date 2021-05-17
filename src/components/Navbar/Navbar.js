@@ -20,20 +20,20 @@ function Navbar() {
       <span class="navbar-toggler-icon text-end"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-    <div class="navbar-collapse justify-content-center">
+    <div class="navbar-collapse justify-content-end">
       <ul class="navbar-nav  mb-2 mb-lg-0 ">
       
         <li class="nav-item">
-          <Link class="nav-link " aria-current="page" to="/program"  style={{color:"#f9f3f3"}}>Programs</Link>
+          <Link class="nav-link " aria-current="page" to="/program"  style={{color:"#01aeae"}}>Programs</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link" aria-current="page" to="/teams"  style={{color:"#f9f3f3"}}>Team</Link>
+          <Link class="nav-link" aria-current="page" to="/teams"  style={{color:"#01aeae"}}>Team</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link" to="/about-us"  style={{color:"#f9f3f3"}}>About Us</Link>
+          <Link class="nav-link" to="/about-us"  style={{color:"#01aeae"}}>About Us</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link" to="/contact-us"  style={{color:"#f9f3f3"}}>Contact Us</Link>
+          <Link class="nav-link" to="/contact-us"  style={{color:"#01aeae"}}>Contact Us</Link>
         </li>
        
  </ul>

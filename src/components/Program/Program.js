@@ -182,7 +182,6 @@ function Program() {
   n culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
 </div>
-<Footer />
 </div>
     )
 }

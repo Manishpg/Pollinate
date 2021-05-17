@@ -10,7 +10,7 @@ function Team() {
             <h1 className="text-center">Team section.</h1>
        
         </div>
-        <Footer />
+      
         </div>
     )
 }
