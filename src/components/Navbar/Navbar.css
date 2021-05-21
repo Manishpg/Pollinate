@@ -12,8 +12,11 @@
     z-index: 20;
 }
 li{
-    text-align:center;
-    
+    text-align:center;   
+}
+
+.nav-link{
+color:#01aeae;
 }
 
 
@@ -33,23 +36,20 @@ form{
 
 .donate-btn:hover{
     background-color: #b1a1a1;
-    color:white;
-    border:1px solid #ddc305;
+    color:#01aeae;
     transition:all ease-in 0.3s;
 }
 .navbar-collapse{
     font-size:large;
 }
 .nav-item{
-  
- display:block;
- padding:7px 15px;
+color:#ddc305;
+ display:inline;
+ padding:7px 12px;
     font-size:large;
     /* border-bottom: 4px solid#100906; */
 }
-.nav-item{
-    display:block;
-}
+
 
 /* .nav-item::after {
   content: '';
@@ -89,6 +89,6 @@ form{
 }
 
 .navbar-toggler{
+    color:white;
     border:none;
-
 }

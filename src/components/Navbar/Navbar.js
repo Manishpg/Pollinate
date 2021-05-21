@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 //import "bootstrap/dist/js/bootstrap.bundle.min.js"
 import './Navbar.css';
 import Logo from './pollinate-logo.png';
+import './Navbar.css'
 import Dropdown from 'react-bootstrap/Dropdown'
 import main from './main.png';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
@@ -23,8 +24,9 @@ function Navbar() {
     <div class="navbar-collapse justify-content-end">
       <ul class="navbar-nav  mb-2 mb-lg-0 ">
       
-        <li class="nav-item">
-          <Link class="nav-link " aria-current="page" to="/program"  style={{color:"#01aeae"}}>Programs</Link>
+        <li href="/program" class="nav-item">
+        <p className="nav-link">Program</p>
+          {/* <Link class="nav-link " aria-current="page" to="/program"  style={{color:"#01aeae"}}>Programs</Link> */}
         </li>
         <li class="nav-item">
           <Link class="nav-link" aria-current="page" to="/teams"  style={{color:"#01aeae"}}>Team</Link>

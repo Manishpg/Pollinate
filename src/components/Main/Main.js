@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from './card-Photo.png';
 import './Main.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import Circle from './Circle';
 import CashLogo from './money.png';
 import womanLogo from './woman.png';
@@ -30,7 +31,7 @@ function Main() {
     <div class="col-12 col-md-4">
 
     <div class="card">
-  <h5 class="card-header">Why we exist</h5>
+  <h5 class="card-header" style={{backgroundColor:"#ddc305"}}>Why we exist</h5>
   <div class="card-body">
     <h5 class="card-title">Gender inequality</h5>
     <p class="card-text">Gender inequality exacerbates the impact of poverty on women and millions of women lack access to opportunities, financial independence and decision making.</p>
@@ -59,7 +60,7 @@ function Main() {
 
     <div class="col-12 col-md-4">
     <div class="card">
-  <h5 class="card-header">What we do</h5>
+  <h5 class="card-header" style={{backgroundColor:"#ddc305"}}>What we do</h5>
   <div class="card-body">
     <h5 class="card-title">Leave poverty behind</h5>
     <p class="card-text">We identify, train and develop local women entrepreneurs who serve hard to reach families living on less than US$1.90 a day.
@@ -80,7 +81,7 @@ function Main() {
     </div>
     <div class="col-12 col-md-4">
     <div class="card">
-  <h5 class="card-header">Who we are</h5>
+  <h5 class="card-header" style={{backgroundColor:"#ddc305"}}>Who we are</h5>
   <div class="card-body">
     <h5 class="card-title">We’re no fan of the status quo</h5>
     <p class="card-text">It’s no longer okay to ignore the obstacles that stop millions of women and their families from living a better life. That’s why our team are relentlessly focused on serving the communities nobody else will. Get to know
